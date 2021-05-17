@@ -2,7 +2,7 @@
 React datatable helper
 
 Example
-
+```typescript
 <DataTable 
     columns={this.state.columns}
     data={this.state.data}
@@ -13,3 +13,4 @@ Example
     progressPending={this.state.loading} 
     customStyles={this.customSyle}
 />
+```
