@@ -21,6 +21,7 @@ Initialization
     <DatatableHelper 
         columns={this.state.columns}
         data={this.state.data}
-        onChangePage={(page) => { console.log(page) }} 
+        onChangePage={(page) => { setData(page) }} 
+        pagination //to show pagination
     />  
 ```
